@@ -7,7 +7,7 @@ import Footer from "./Footer";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/portfolio">
       <div className="App bg-black flex flex-col min-h-screen">
         <Navbar />
 
