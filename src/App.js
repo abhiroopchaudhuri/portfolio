@@ -6,9 +6,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 
 function App() {
-
-  const basename = window.location.pathname.split('/')[1] || '/'; // Default to '/' if not found
-
+  
   return (
     <Router basename="/portfolio">
       <div className="App bg-black flex flex-col min-h-screen">
@@ -16,7 +14,7 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Homepage />} />
-          <Route path={`${basename}/frontend-projects`} element={<FrontendProjects />} />
+          <Route path="/frontend-projects" element={<FrontendProjects />} />
         </Routes>
 
         <Footer />
