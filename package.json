@@ -17,7 +17,6 @@
   },
   "scripts": {
     "deploy": "gh-pages -d build",
-    "copy-404": "cp public/404.html build/404.html && sed -i 's/%base%/portfolio/g' build/404.html",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
