@@ -90,7 +90,7 @@ const Homepage = () => {
           className="imgContainer flex w-full justify-center md:space-x-10 space-x-4 mt-8 md:px-4 px-4 h-[30em]"
         >
           <motion.div
-            className="md:w-[40%] w-[50%] h-full bg-red-500 overflow-hidden md:grayscale md:hover:grayscale-0 transition-all duration-300 cursor-pointer"
+            className="md:w-[40%] w-[50%] h-full bg-black overflow-hidden md:grayscale md:hover:grayscale-0 transition-all duration-300 cursor-pointer"
             initial={{
               clipPath: "inset(0% 0% 100% 0%)",
               borderBottomLeftRadius: "0px",
@@ -101,15 +101,15 @@ const Homepage = () => {
             onClick={() => navigate("/frontend-projects")}
           >
             <img
-              src="https://cdn.midjourney.com/521d599d-126d-473f-9b24-444798bb241e/0_1.png"
-              alt="Project 1"
+              src={`${process.env.PUBLIC_URL}/front-end-development.png`}
+              alt="Front-End Development"
               className="w-full h-full object-cover hover:scale-[105%] transition-scale duration-700"
             />
           </motion.div>
           {/* Second Image Div */}
          
           <motion.div
-            className="md:w-[40%] w-[50%] h-full bg-green-500 overflow-hidden md:grayscale md:hover:grayscale-0 transition-all duration-300"
+            className="md:w-[40%] w-[50%] h-full bg-black overflow-hidden md:grayscale md:hover:grayscale-0 transition-all duration-300"
             initial={{
               clipPath: "inset(100% 0% 0% 0%)",
               borderTopRightRadius: "0px",
@@ -120,24 +120,24 @@ const Homepage = () => {
           >
             <a href="https://behance.net/abhiroopchaudhuri" target="_blank" rel="noopener noreferrer">
             <img
-              src="https://cdn.midjourney.com/fce06df0-2960-4a40-b917-d6d3ca1bd663/0_0.png"
-              alt="Project 2"
+              src={`${process.env.PUBLIC_URL}/ux-designing.png`}
+              alt="UX Designing"
               className="w-full h-full object-cover hover:scale-[105%] transition-scale duration-700"
             /> </a>
           </motion.div>
         </div>
 
         {/* About Me Section */}
-        <section className="text-center px-4 md:w-[75%] w-[90%] mt-20">
+        <section className="text-center px-1 md:px-4 md:w-[75%] w-[95%] mt-20">
           <AnimatedText text="About Me" className="text-xl mb-4" />
           <motion.p
            initial={{ opacity: 0, y: 20, filter: "grayscale(100%)" }}
            whileInView={{ opacity: 1, y: 0, filter: "grayscale(0%)" }}
            transition={{ duration: 1, type: "ease" }}
            viewport={{ once: true }}
-          className="text-gray-400 leading-8">
+          className="text-gray-400 leading-2  md:leading-8">
             Hello! I'm Abhiroop Chaudhuri, a dedicated and innovative{" "}
-            <span className="text-blue-400">
+            <span className="text-yellow-400">
               Front-End Developer and UX/UI Designer
             </span>{" "}
             with experience in the Fintech, Healthcare, AI, and Web 3.0 SaaS
@@ -151,23 +151,14 @@ const Homepage = () => {
             heatmapping, to expedite product decisions and enhance user
             experiences.
             <br />
-            <br />
+            <br /><span className="text-blue-400">
             My educational background includes a B.Tech in Electrical and
             Electronics Engineering, complemented by professional certifications
             from Google (UX Designing), Meta (Front-End Development), and the
-            University of Virginia (Digital Product Management).
+            University of Virginia (Digital Product Management).</span>
             <br />
             <br />
-            In every project, I strive to push the boundaries of creativity and
-            innovation while maintaining a strong focus on user needs and
-            business objectives. My ability to collaborate effectively with
-            cross-functional teams, combined with my continuous learning
-            mindset, ensures that I stay at the forefront of industry
-            advancements and best practices. Whether working on a complex AI
-            application or a simple, elegant user interface, I am committed to
-            delivering products that are not only visually compelling but also
-            intuitive and user-friendly. My goal is always to create products
-            that delight users and drive business success.
+            
           </motion.p>
         </section>
 
