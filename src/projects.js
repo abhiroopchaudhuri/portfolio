@@ -13,7 +13,7 @@ const Projects = [
             processing your input.`,
         githubLink: "https://github.com/abhicode7/cleochat",
         liveLink: "https://cleochat-eta.vercel.app/",
-        imageLink: "https://private-user-images.githubusercontent.com/87370756/336005283-ab02f864-4b64-4afd-afad-c63943642567.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTg0NjI3NTEsIm5iZiI6MTcxODQ2MjQ1MSwicGF0aCI6Ii84NzM3MDc1Ni8zMzYwMDUyODMtYWIwMmY4NjQtNGI2NC00YWZkLWFmYWQtYzYzOTQzNjQyNTY3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MTUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjE1VDE0NDA1MVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWY5NjE0Y2Q3MTZkMjc4NWRiYmM0ZmNmOTVhZThjOTM1ZDYxMmQ0NmUwOWU3NjYxZDliOWVkNzc1OTZkMWJiZjgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.9swj_VehY9MqZMVLGOL3wUGLMsIiz6RbuRp9CjeDSC4"
+        imageLink: "https://github.com/abhicode7/portfolio/assets/87370756/6bc33966-acc2-4a74-a12e-c240b47eed13"
     },
     {
         id: 2,
@@ -27,7 +27,7 @@ screen size.<br/>
 -Interactive Modal: Click on any image to view it in an elegant modal.<br/>`,
         githubLink: "https://github.com/abhicode7/voyager",
         liveLink: "https://abhicode7.github.io/voyager/",
-        imageLink: "https://private-user-images.githubusercontent.com/87370756/335995507-495f49e5-7ce9-4103-9309-a653e95bc593.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTg0NjMwOTcsIm5iZiI6MTcxODQ2Mjc5NywicGF0aCI6Ii84NzM3MDc1Ni8zMzU5OTU1MDctNDk1ZjQ5ZTUtN2NlOS00MTAzLTkzMDktYTY1M2U5NWJjNTkzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MTUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjE1VDE0NDYzN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTljNDc1YzViZjk2Yjg4OTBiMWFiMmFlZDk5MzAyNTk0ZjRkMjU0YzdjODlhY2QzNmQyMDQzYWE2NzEzNDgxN2QmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.GrIazTgF3MAtU21kNlmz0QxpCnU8aKtHGK0HAhFMCWg"
+        imageLink: "https://github.com/abhicode7/portfolio/assets/87370756/b4594a1d-547e-4518-9af6-f99e7f5727cf"
     },
 
     {
