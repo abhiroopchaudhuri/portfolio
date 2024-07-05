@@ -48,13 +48,13 @@ screen size.<br/>
     {
         id: 4,
         title: "Draggable Notes App",
-        description: `## ✨ Features<br/>
+        description: `✨ Features<br/>
 
-- **Create Notes:** Add new notes to your board with a single click. Each note is assigned a unique ID and remembers its position for persistence.<br/>
-- **Drag and Drop:** Effortlessly move notes around the screen using intuitive drag-and-drop functionality. The app prevents notes from overlapping, ensuring a clean and organized workspace.<br/>
-- **Edit Notes:** Double-click on a note to activate edit mode, allowing you to modify its content directly. <br/>
-- **Delete Notes:** Easily remove notes that are no longer needed with a single click. <br/>
-- **Local Storage Persistence:** Your notes are automatically saved to your browser's local storage, so you can pick up where you left off, even after closing the application.`,
+- Create Notes: Add new notes to your board with a single click. Each note is assigned a unique ID and remembers its position for persistence.<br/>
+- Drag and Drop: Effortlessly move notes around the screen using intuitive drag-and-drop functionality. The app prevents notes from overlapping, ensuring a clean and organized workspace.<br/>
+- Edit Notes: Double-click on a note to activate edit mode, allowing you to modify its content directly. <br/>
+- Delete Notes: Easily remove notes that are no longer needed with a single click. <br/>
+- Local Storage Persistence: Your notes are automatically saved to your browser's local storage, so you can pick up where you left off, even after closing the application.`,
         githubLink: "https://github.com/abhicode7/draggable-notes-app",
         liveLink: "https://abhicode7.github.io/draggable-notes-app/",
         imageLink: "https://github.com/abhicode7/draggable-notes-app/assets/87370756/5de7ee61-5f76-4e08-9541-e61d4d2c9939"
@@ -62,5 +62,4 @@ screen size.<br/>
     
 ];
 
-z
 export default Projects
