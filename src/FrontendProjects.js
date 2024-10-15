@@ -69,7 +69,7 @@ const FrontendProjects = () => {
         animate="visible"
         variants={child}
         key={index}
-        className="flex flex-col items-center"
+        className="flex flex-col items-center min-w-full"
         custom={index}
         >
         <FrontendProjComponents
