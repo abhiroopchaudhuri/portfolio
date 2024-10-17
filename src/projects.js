@@ -18,7 +18,7 @@ const Projects = [
     {
         id: 2,
         title: "Cineverse: Next-Gen Movie App",
-        description: `Features 🚀 <br/>-Dynamic Movie Sliders: Seamless browsing through popular, top-rated, and upcoming movies<br/>-Auto-playing Hero Section: Engaging visual showcase of featured films<br/>-Detailed Movie Pages: In-depth information, trailers, and cast details for each movie<br/>-Responsive Design: Optimized for all devices, from mobile to desktop<br/>-Real-time Data: Up-to-date movie information fetched from TMDb API<br/><br/>`,
+        description: `Features 🎥 <br/>-Dynamic Movie Sliders: Seamless browsing through popular, top-rated, and upcoming movies.<br/>-Auto-playing Hero Section: Engaging visual showcase of featured films.<br/>-Detailed Movie Pages: In-depth information, trailers, and cast details for each movie.<br/>-Responsive Design: Optimized for all devices, from mobile to desktop.<br/>-Real-time Data: Up-to-date movie information fetched from TMDb API.<br/><br/>`,
         githubLink: "https://github.com/abhicode7/cineverse-movie-app",
         liveLink: "https://cineverse-movie-app.vercel.app/",
         imageLink: "https://github.com/user-attachments/assets/362b188f-50b4-44ac-8ec8-bdedde1acb5c"
