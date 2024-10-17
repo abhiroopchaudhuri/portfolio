@@ -21,7 +21,7 @@ const Projects = [
         description: `Features 🚀 <br/>-Dynamic Movie Sliders: Seamless browsing through popular, top-rated, and upcoming movies<br/>-Auto-playing Hero Section: Engaging visual showcase of featured films<br/>-Detailed Movie Pages: In-depth information, trailers, and cast details for each movie<br/>-Responsive Design: Optimized for all devices, from mobile to desktop<br/>-Real-time Data: Up-to-date movie information fetched from TMDb API<br/><br/>`,
         githubLink: "https://github.com/abhicode7/cineverse-movie-app",
         liveLink: "https://cineverse-movie-app.vercel.app/",
-        imageLink: "https://private-user-images.githubusercontent.com/87370756/376662935-c1466b5d-31d4-4d31-93d2-53dbf83dcad3.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjkxOTIwMTksIm5iZiI6MTcyOTE5MTcxOSwicGF0aCI6Ii84NzM3MDc1Ni8zNzY2NjI5MzUtYzE0NjZiNWQtMzFkNC00ZDMxLTkzZDItNTNkYmY4M2RjYWQzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDE3VDE5MDE1OVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQzMzRhZDExZGM2MzhmMjEyODIwZGRlMWNhOTEwODFhMWJiMzgwOTFiZjgyMDA0NTJkOTBkMTZlZGJmYjE0NDYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.RSqqHn4v3GhmqwsYfXLag3sgzbVvxKeOwgXRcl8RuZk"
+        imageLink: "https://github.com/user-attachments/assets/362b188f-50b4-44ac-8ec8-bdedde1acb5c"
     },
     {
         id: 3,
