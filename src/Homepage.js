@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { motion, useInView, useAnimation, stagger } from "framer-motion";
 import AnimatedText from "./AnimatedText";
 
@@ -84,7 +84,7 @@ const Homepage = () => {
 
       {/* Main Section */}
       <main className="flex flex-col items-center mt-20">
-        <AnimatedText text="Which of these projects do you want to see?" className="md:text-2xl text-lg inline-block md:mt-16 mt-10 px-4 text-center md:px-0" />
+        <AnimatedText text="Which of these projects do you want to see?" className="md:text-2xl text-lg inline-block md:mt-16 mt-10 px-8 text-center md:px-0" />
         <div
           ref={imgRef}
           className="imgContainer flex w-full justify-center md:space-x-10 space-x-4 mt-8 md:px-4 px-4 h-[30em]"
@@ -128,17 +128,17 @@ const Homepage = () => {
         </div>
 
         {/* About Me Section */}
-        <section className="text-center px-1 md:px-4 md:w-[75%] w-[95%] mt-20">
+        <section className="text-center px-1 md:px-4 md:w-[75%] w-[95%] mt-28">
           <AnimatedText text="About Me" className="text-xl mb-4" />
           <motion.p
            initial={{ opacity: 0, y: 20, filter: "grayscale(100%)" }}
            whileInView={{ opacity: 1, y: 0, filter: "grayscale(0%)" }}
            transition={{ duration: 1, type: "ease" }}
            viewport={{ once: true }}
-          className="text-gray-400 leading-2  md:leading-8">
+          className="text-gray-400 leading-2  md:leading-8 md:px-0 px-8">
             Hello! I'm Abhiroop Chaudhuri, a dedicated and innovative{" "}
             <span className="text-yellow-400">
-              Front-End Developer and UX/UI Designer
+              UX/UI Designer and Front-End Developer
             </span>{" "}
             with experience in the Fintech, Healthcare, AI, and Web 3.0 SaaS
             industries. My journey in the tech world has been driven by a
@@ -162,8 +162,48 @@ const Homepage = () => {
           </motion.p>
         </section>
 
-        {/* Tech Stack Section */}
+        {/* Certifications Section */}
         <section className="w-full px-0 mt-20">
+          <div className="flex md:flex-row flex-col items-center justify-around gap-16 md:gap-0 w-full">
+            <div>
+              <AnimatedText text="Certifications" className="text-xl mb-8" />
+              <motion.div
+              initial={{ opacity: 0, y: 20, filter: "grayscale(100%)" }}
+              whileInView={{ opacity: 1, y: 0, filter: "grayscale(0%)" }}
+              transition={{ duration: 1, type: "ease" }}
+              viewport={{ once: true }}
+              className="grid md:grid-cols-3 w-full ">
+                {/* Add your certifications here */}
+                <Link to="https://coursera.org/share/bf77019fdf390d8c3f01c2bb8851b54c" target="_blank" rel="noopener noreferrer">
+                <img
+                  src={`${process.env.PUBLIC_URL}/ux_certification.png`}
+                  className="w-[100%] h-auto object-cover hover:scale-[95%]  transition duration-500"
+                />
+                </Link>
+
+                <Link to="https://coursera.org/share/4baf63692cc1ea833e1471dccda3f11e" target="_blank" rel="noopener noreferrer">
+                <img
+                  src={`${process.env.PUBLIC_URL}/frontend_certification.png`}
+                  className="w-[100%] h-auto object-cover hover:scale-[95%]  transition duration-500"
+                />
+                </Link>
+
+                <Link to="https://coursera.org/share/0d5737a8389a205da01d8cc92028ad18" target="_blank" rel="noopener noreferrer">
+                <img
+                  src={`${process.env.PUBLIC_URL}/product_certification.png`}
+                  className="w-[100%] h-auto object-cover hover:scale-[95%] transition duration-500"
+                />
+                </Link>
+                
+                 
+                
+              </motion.div>
+            </div>
+            </div>
+        </section>
+
+        {/* Tech Stack Section */}
+        <section className="w-full px-0 mt-28 mb-10">
           <div className="flex md:flex-row flex-col items-center justify-around gap-16 md:gap-0">
             <div>
               {/* <h4 className="text-lg mb-8">Front-End Development</h4> */}
@@ -203,7 +243,7 @@ const Homepage = () => {
                 {/* Add your tech stack items here */}
                 <div className="flex flex-col items-center justify-between w-20 h-30 md:scale-[100%] scale-[80%]"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsjBqYeY1ERIluvWk9qxCq2uUGQ95rNdmDyL-_4NpX6DzJgprV1k-zqaOydp3EBUnT6U0&usqp=CAU" alt="Figma" className="w-full h-auto object-contain p-1" />Figma</div>
 
-                <div className="flex flex-col items-center justify-between w-20 h-30 md:scale-[100%] scale-[80%]"><img src="https://static-00.iconduck.com/assets.00/framer-icon-2048x2048-msauaaio.png" alt="Framer" className="w-full h-auto object-contain" />Framer</div>
+                <div className="flex flex-col items-center justify-between w-20 h-30 md:scale-[100%] scale-[80%]"><img src="https://framerusercontent.com/images/TvJ9grdPgk3sRz6T6XwkpBrFr4k.png?scale-down-to=512" alt="Framer" className="w-full h-auto object-contain" />Framer</div>
 
                 <div className="flex flex-col items-center justify-between w-20 h-30 md:scale-[100%] scale-[80%]"><img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/adobe-photoshop-icon.png" alt="Photoshop" className="w-full h-auto object-contain p-1" /><p>Photoshop</p></div>
 
