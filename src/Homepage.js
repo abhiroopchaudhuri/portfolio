@@ -89,6 +89,25 @@ const Homepage = () => {
           ref={imgRef}
           className="imgContainer flex w-full justify-center md:space-x-10 space-x-4 mt-8 md:px-4 px-4 h-[30em]"
         >
+
+<motion.div
+            className="md:w-[40%] w-[50%] h-full bg-black overflow-hidden md:grayscale md:hover:grayscale-0 transition-all duration-300"
+            initial={{
+              clipPath: "inset(100% 0% 0% 0%)",
+              borderTopRightRadius: "0px",
+            }}
+            animate={control2}
+            // viewport={{ once: false }}
+            transition={{ duration: 0.6, ease: "easeInOut" }}
+          >
+            <a href="https://behance.net/abhiroopchaudhuri" target="_blank" rel="noopener noreferrer">
+            <img
+              src={`${process.env.PUBLIC_URL}/ux-designing.png`}
+              alt="UX Designing"
+              className="w-full h-full object-cover hover:scale-[105%] transition-scale duration-700"
+            /> </a>
+          </motion.div>
+          
           <motion.div
             className="md:w-[40%] w-[50%] h-full bg-black overflow-hidden md:grayscale md:hover:grayscale-0 transition-all duration-300 cursor-pointer"
             initial={{
@@ -108,23 +127,7 @@ const Homepage = () => {
           </motion.div>
           {/* Second Image Div */}
          
-          <motion.div
-            className="md:w-[40%] w-[50%] h-full bg-black overflow-hidden md:grayscale md:hover:grayscale-0 transition-all duration-300"
-            initial={{
-              clipPath: "inset(100% 0% 0% 0%)",
-              borderTopRightRadius: "0px",
-            }}
-            animate={control2}
-            // viewport={{ once: false }}
-            transition={{ duration: 0.6, ease: "easeInOut" }}
-          >
-            <a href="https://behance.net/abhiroopchaudhuri" target="_blank" rel="noopener noreferrer">
-            <img
-              src={`${process.env.PUBLIC_URL}/ux-designing.png`}
-              alt="UX Designing"
-              className="w-full h-full object-cover hover:scale-[105%] transition-scale duration-700"
-            /> </a>
-          </motion.div>
+          
         </div>
 
         {/* About Me Section */}
@@ -136,9 +139,9 @@ const Homepage = () => {
            transition={{ duration: 1, type: "ease" }}
            viewport={{ once: true }}
           className="text-gray-400 leading-2  md:leading-8 md:px-0 px-8">
-            Hello! I'm Abhiroop Chaudhuri, a dedicated and innovative{" "}
+            Hello! I'm Abhiroop, a {" "}
             <span className="text-yellow-400">
-              UX/UI Designer and Front-End Developer
+              UX/UI Designer & Gen AI Specialist
             </span>{" "}
             with experience in the Fintech, Healthcare, AI, and Web 3.0 SaaS
             industries. My journey in the tech world has been driven by a
@@ -146,10 +149,11 @@ const Homepage = () => {
             appeal with seamless functionality. Throughout my career, I have had
             the privilege of working on over 17 products, including SaaS
             applications, software suites, and AI-driven platforms. My role has
-            often extended beyond design and development, where I have utilized
-            AI-driven data insights, including generative AI and AI-based
-            heatmapping, to expedite product decisions and enhance user
-            experiences.
+            often extended beyond design and development, taking on responsibilities as an {" "}
+            <span className="text-yellow-400">
+              Interim Assistant Product Manager & Front-end Lead.
+            </span>{" "} In these capacities, I've led cross-functional teams spanning front-end development teams, UX teams, AI teams, and testing teams, and have utilized
+            AI-driven data insights, including generative AI and AI-based heatmapping, to expedite product decisions and enhance user experiences.
             <br />
             <br /><span className="text-blue-400">
             My educational background includes a B.Tech in Electrical and
