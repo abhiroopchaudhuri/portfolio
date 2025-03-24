@@ -91,7 +91,7 @@ const Homepage = () => {
         >
 
 <motion.div
-            className="md:w-[40%] w-[50%] h-full bg-black overflow-hidden md:grayscale md:hover:grayscale-0 transition-all duration-300"
+            className="md:w-[40%] w-[50%] h-full bg-black overflow-hidden transition-all duration-300"
             initial={{
               clipPath: "inset(100% 0% 0% 0%)",
               borderTopRightRadius: "0px",
@@ -102,14 +102,14 @@ const Homepage = () => {
           >
             <a href="https://behance.net/abhiroopchaudhuri" target="_blank" rel="noopener noreferrer">
             <img
-              src={`${process.env.PUBLIC_URL}/ux-designing.png`}
+              src={`${process.env.PUBLIC_URL}/ux_designing_projects.jpeg`}
               alt="UX Designing"
               className="w-full h-full object-cover hover:scale-[105%] transition-scale duration-700"
             /> </a>
           </motion.div>
           
           <motion.div
-            className="md:w-[40%] w-[50%] h-full bg-black overflow-hidden md:grayscale md:hover:grayscale-0 transition-all duration-300 cursor-pointer"
+            className="md:w-[40%] w-[50%] h-full bg-black overflow-hidden transition-all duration-300 cursor-pointer"
             initial={{
               clipPath: "inset(0% 0% 100% 0%)",
               borderBottomLeftRadius: "0px",
@@ -120,7 +120,7 @@ const Homepage = () => {
             onClick={() => navigate("/frontend-projects")}
           >
             <img
-              src={`${process.env.PUBLIC_URL}/front-end-development.png`}
+              src={`${process.env.PUBLIC_URL}/ai_frontend_projects.jpeg`}
               alt="Front-End Development"
               className="w-full h-full object-cover hover:scale-[105%] transition-scale duration-700"
             />
@@ -131,7 +131,7 @@ const Homepage = () => {
         </div>
 
         {/* About Me Section */}
-        <section className="text-center px-1 md:px-4 md:w-[75%] w-[95%] mt-28">
+        {/* <section className="text-center px-1 md:px-4 md:w-[75%] w-[95%] mt-28">
           <AnimatedText text="About Me" className="text-xl mb-4" />
           <motion.p
            initial={{ opacity: 0, y: 20, filter: "grayscale(100%)" }}
@@ -164,7 +164,7 @@ const Homepage = () => {
             <br />
             
           </motion.p>
-        </section>
+        </section> */}
 
         {/* Certifications Section */}
         <section className="w-full px-0 mt-20">
@@ -177,17 +177,17 @@ const Homepage = () => {
               transition={{ duration: 1, type: "ease" }}
               viewport={{ once: true }}
               className="grid md:grid-cols-3 w-full ">
-                {/* Add your certifications here */}
+
+<Link to="https://coursera.org/share/9cbf601beeac9fb2e831d4170f52ad28" target="_blank" rel="noopener noreferrer">
+                <img
+                  src={`${process.env.PUBLIC_URL}/ai_certification.png`}
+                  className="w-[100%] h-auto object-cover hover:scale-[95%] transition duration-500"
+                />
+                </Link>
+                
                 <Link to="https://coursera.org/share/bf77019fdf390d8c3f01c2bb8851b54c" target="_blank" rel="noopener noreferrer">
                 <img
                   src={`${process.env.PUBLIC_URL}/ux_certification.png`}
-                  className="w-[100%] h-auto object-cover hover:scale-[95%]  transition duration-500"
-                />
-                </Link>
-
-                <Link to="https://coursera.org/share/4baf63692cc1ea833e1471dccda3f11e" target="_blank" rel="noopener noreferrer">
-                <img
-                  src={`${process.env.PUBLIC_URL}/frontend_certification.png`}
                   className="w-[100%] h-auto object-cover hover:scale-[95%]  transition duration-500"
                 />
                 </Link>
@@ -199,6 +199,18 @@ const Homepage = () => {
                 />
                 </Link>
                 
+
+                <Link to="https://coursera.org/share/4baf63692cc1ea833e1471dccda3f11e" target="_blank" rel="noopener noreferrer">
+                <img
+                  src={`${process.env.PUBLIC_URL}/frontend_certification.png`}
+                  className="w-[100%] h-auto object-cover hover:scale-[95%]  transition duration-500"
+                />
+                </Link>
+
+                
+
+                
+                
                  
                 
               </motion.div>
@@ -207,10 +219,10 @@ const Homepage = () => {
         </section>
 
         {/* Tech Stack Section */}
-        <section className="w-full px-0 mt-28 mb-10">
+        {/* <section className="w-full px-0 mt-28 mb-10">
           <div className="flex md:flex-row flex-col items-center justify-around gap-16 md:gap-0">
             <div>
-              {/* <h4 className="text-lg mb-8">Front-End Development</h4> */}
+              
               <AnimatedText text="Front-End Development" className="text-xl mb-8" />
               <motion.div
               initial={{ opacity: 0, y: 20, filter: "grayscale(100%)" }}
@@ -218,14 +230,13 @@ const Homepage = () => {
               transition={{ duration: 1, type: "ease" }}
               viewport={{ once: true }}
               className="grid grid-cols-3 gap-8 gap-x-12">
-                {/* Add your tech stack items here */}
+                
                 <div className="flex flex-col items-center justify-between w-20 h-30 md:scale-[100%] scale-[80%]"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png" alt="React" className="w-full h-auto object-contain p-1" />React</div>
 
                 <div className="flex flex-col items-center justify-between w-20 h-30 md:scale-[100%] scale-[80%]"><img src="https://www.svgrepo.com/show/374118/tailwind.svg" alt="Tailwind" className="w-full h-auto object-contain" />Tailwind</div>
 
                 <div className="flex flex-col items-center justify-between w-20 h-30 md:scale-[100%] scale-[80%]"><img src="https://www.datocms-assets.com/98835/1684410508-image-7.png" alt="Next.js" className="w-full h-auto object-contain p-1" /><p>Next.js</p></div>
 
-                {/* <div className="flex flex-col items-center justify-between w-40 h-30 col-span-2 rounded-[20px] overflow-hidden"><img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Mongo-db-logo.png" alt="Mongo DB" className="w-full h-full object-contain h-auto" />Mongo DB</div> */}
 
                 <div className="flex flex-col items-center justify-between w-20 h-30 md:scale-[100%] scale-[80%]"><img src="https://cdn4.iconfinder.com/data/icons/iconsimple-programming/512/html-512.png" alt="Html" className="w-full h-auto object-contain p-2" /><p>Html</p></div>
 
@@ -244,7 +255,7 @@ const Homepage = () => {
               transition={{ duration: 1, type: "ease" }}
               viewport={{ once: true }}
               className="grid grid-cols-3 gap-8 gap-x-12">
-                {/* Add your tech stack items here */}
+             
                 <div className="flex flex-col items-center justify-between w-20 h-30 md:scale-[100%] scale-[80%]"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsjBqYeY1ERIluvWk9qxCq2uUGQ95rNdmDyL-_4NpX6DzJgprV1k-zqaOydp3EBUnT6U0&usqp=CAU" alt="Figma" className="w-full h-auto object-contain p-1" />Figma</div>
 
                 <div className="flex flex-col items-center justify-between w-20 h-30 md:scale-[100%] scale-[80%]"><img src="https://framerusercontent.com/images/TvJ9grdPgk3sRz6T6XwkpBrFr4k.png?scale-down-to=512" alt="Framer" className="w-full h-auto object-contain" />Framer</div>
@@ -263,7 +274,7 @@ const Homepage = () => {
               </motion.div>
             </div>
           </div>
-        </section>
+        </section> */}
       </main>
 
       {/* Footer Section */}

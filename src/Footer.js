@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export const Footer = () => {
   return (
     <footer className="flex xl:flex-row flex-col-reverse justify-between items-center w-full xl:h-16 text-center border-t-[1px] border-[#191919] text-white text-sm font-light mt-20 bg-black xl:px-6 px-4 py-4 xl:gap-0 gap-6">
-    <p className='flex-1 text-start'>Copyright 2024 © Abhiroop Chaudhuri</p>
+    <p className='flex-1 text-start'>Copyright 2025 © Abhiroop Chaudhuri</p>
 
     <div className='flex xl:flex-row flex-col h-full justify-center items-center gap-4 flex-1 '>
      
