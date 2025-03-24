@@ -35,4 +35,4 @@ I'm always excited to connect with like-minded professionals and explore new opp
 
 ## Copyright
 
-© 2024 Abhiroop Chaudhuri
+© 2025 Abhiroop Chaudhuri
