@@ -84,14 +84,16 @@ const Homepage = () => {
 
       {/* Main Section */}
       <main className="flex flex-col items-center mt-20">
-        <AnimatedText text="Which of these projects do you want to see?" className="md:text-2xl text-lg inline-block md:mt-16 mt-10 px-8 text-center md:px-0" />
+        <h2 text="Which of these projects do you want to see?" className="md:text-2xl text-lg inline-block md:mt-16 mt-10 px-8 text-center md:px-0" >
+        Which of these projects do you want to see?
+        </h2>
         <div
           ref={imgRef}
-          className="imgContainer flex w-full justify-center md:space-x-10 space-x-4 mt-8 md:px-4 px-4 h-[30em]"
+          className="imgContainer flex flex-col gap-4 md:gap-0 md:flex-row w-full justify-center md:space-x-10 md:space-x-4 mt-8 md:px-4 px-4 h-[30em]"
         >
 
 <motion.div
-            className="md:w-[40%] w-[50%] h-full bg-black overflow-hidden transition-all duration-300"
+            className="md:w-[40%] w-full h-full bg-black overflow-hidden transition-all duration-300"
             initial={{
               clipPath: "inset(100% 0% 0% 0%)",
               borderTopRightRadius: "0px",
@@ -109,7 +111,7 @@ const Homepage = () => {
           </motion.div>
           
           <motion.div
-            className="md:w-[40%] w-[50%] h-full bg-black overflow-hidden transition-all duration-300 cursor-pointer"
+            className="md:w-[40%] w-full h-full bg-black overflow-hidden transition-all duration-300 cursor-pointer"
             initial={{
               clipPath: "inset(0% 0% 100% 0%)",
               borderBottomLeftRadius: "0px",
