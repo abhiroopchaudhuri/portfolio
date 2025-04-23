@@ -9,7 +9,7 @@ export const Footer = () => {
     <div className='flex xl:flex-row flex-col h-full justify-center items-center gap-4 flex-1 '>
      
       <Link to="./">Home</Link>
-      <Link to="./frontend-projects">Front-End Development Projects</Link>
+      <Link to="./frontend-projects">AI & Front-End Development</Link>
       <Link to="https://www.behance.net/abhiroopchaudhuri">UX Design Projects</Link>
       
     </div>
@@ -18,7 +18,7 @@ export const Footer = () => {
 
     <div className=' h-8 w-8'><a className='' href="https://www.linkedin.com/in/abhiroopchaudhuri" target="_blank" rel="noopener noreferrer"><img src="https://www.svgrepo.com/show/303207/linkedin-icon-logo.svg"/></a></div>
 
-    <div className=' h-8 w-8'><a className='' href="https://github.com/abhicode7" target="_blank" rel="noopener noreferrer"><img src="https://cdn.worldvectorlogo.com/logos/github-icon-2.svg"/></a></div>
+    <div className=' h-8 w-8'><a className='' href="https://github.com/abhiroopchaudhuri" target="_blank" rel="noopener noreferrer"><img src="https://cdn.worldvectorlogo.com/logos/github-icon-2.svg"/></a></div>
     
     
     </div>
