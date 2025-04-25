@@ -9,8 +9,13 @@ function App() {
   
   return (
     <Router>
-      <div className="App bg-black flex flex-col min-h-screen">
+      <div className="App bg-black relative flex flex-col min-h-screen z-0">
+
+        <div className="nav-container w-full flex flex-row justify-center items-center fixed z-50">
         <Navbar />
+        </div>
+
+        
 
         <Routes>
           <Route path="/" element={<Homepage />} />
