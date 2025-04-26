@@ -142,7 +142,7 @@ const Navbar = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, type: "ease" }}
-          src={`${process.env.PUBLIC_URL}/profile.jpg`} alt="logo" className="md:w-10 md:h-10 w-10 h-10 rounded-full" />
+          src={`${process.env.PUBLIC_URL}/profile.webp`} alt="logo" className="md:w-10 md:h-10 w-10 h-10 rounded-full" />
         <div className="flex flex-col justify-center items-start space-y-1 "> {/* Hide text on very small screens if needed */}
           <AnimatedText text="ABHIROOP" className="text-sm md:text-md font-light leading-none space-x-1" />
           <AnimatedText text="CHAUDHURI" className="text-sm md:text-md font-light leading-none space-x-1" />

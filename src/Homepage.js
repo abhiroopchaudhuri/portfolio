@@ -65,7 +65,7 @@ const Homepage = () => {
   return (
     <div className="min-h-screen w-full text-white font-source-code relative">
       <motion.div className="h-full w-full absolute z-[-10]" style={{ y }}>
-          <img src={`${process.env.PUBLIC_URL}/bg.png`} alt="bg" className="w-full h-full object-cover" />
+          <img src={`${process.env.PUBLIC_URL}/bg.webp`} alt="bg" className="w-full h-full object-cover" />
         </motion.div>
       {/* Main Section */}
       <main className="flex flex-col items-center mt-28">
@@ -91,7 +91,7 @@ const Homepage = () => {
           >
             <a className="flex-none h-full" href="https://behance.net/abhiroopchaudhuri" target="_blank" rel="noopener noreferrer">
               <img
-                src={`${process.env.PUBLIC_URL}/ux-block.png`}
+                src={`${process.env.PUBLIC_URL}/ux-block.webp`}
                 alt="UX Designing"
                 className={`w-full h-full object-cover transition-scale duration-700 ease-in-out ${hoverElement === "ux" ? "scale-110" : ""}`}
               />
@@ -134,7 +134,7 @@ const Homepage = () => {
             <h1 className="flex-1 text-center text-md md:text-2xl font-medium text-white uppercase tracking-widest px-12 flex flex-col justify-center ">AI & Front-end Portfolio <div className={`w-auto h-[2px] bg-white mt-4 md:mx-12 mx-4 bg-gradient-to-r from-[#65FB3D] to-[#FFF714] transition-all duration-300 ease-in-out ${hoverElement === "frontend" ? "md:mx-4" : "md:mx-12"} `}></div></h1>
             <div className="flex-none h-full" >
               <img
-                src={`${process.env.PUBLIC_URL}/ai-block.png`}
+                src={`${process.env.PUBLIC_URL}/ai-block.webp`}
                 alt="UX Designing"
                 className={`w-full h-full object-cover transition-scale duration-700 ease-in-out ${hoverElement === "frontend" ? "scale-110" : ""}`}
               />
@@ -173,21 +173,21 @@ className="grid md:grid-cols-3 w-full mt-10 md:mt-16">
 
 <Link to="https://coursera.org/share/9cbf601beeac9fb2e831d4170f52ad28" target="_blank" rel="noopener noreferrer">
 <img
-src={`${process.env.PUBLIC_URL}/ai_certification.png`}
+src={`${process.env.PUBLIC_URL}/ai_certification.webp`}
 className="w-[100%] h-auto object-cover hover:scale-[95%] transition duration-500"
 />
 </Link>
 
 <Link to="https://coursera.org/share/bf77019fdf390d8c3f01c2bb8851b54c" target="_blank" rel="noopener noreferrer">
 <img
-src={`${process.env.PUBLIC_URL}/ux_certification.png`}
+src={`${process.env.PUBLIC_URL}/ux_certification.webp`}
 className="w-[100%] h-auto object-cover hover:scale-[95%] transition duration-500"
 />
 </Link>
 
 <Link to="https://coursera.org/share/0d5737a8389a205da01d8cc92028ad18" target="_blank" rel="noopener noreferrer">
 <img
-src={`${process.env.PUBLIC_URL}/product_certification.png`}
+src={`${process.env.PUBLIC_URL}/product_certification.webp`}
 className="w-[100%] h-auto object-cover hover:scale-[95%] transition duration-500"
 />
 </Link>
@@ -195,7 +195,7 @@ className="w-[100%] h-auto object-cover hover:scale-[95%] transition duration-50
 
 <Link to="https://coursera.org/share/4baf63692cc1ea833e1471dccda3f11e" target="_blank" rel="noopener noreferrer">
 <img
-src={`${process.env.PUBLIC_URL}/frontend_certification.png`}
+src={`${process.env.PUBLIC_URL}/frontend_certification.webp`}
 className="w-[100%] h-auto object-cover hover:scale-[95%] transition duration-500"
 />
 </Link>

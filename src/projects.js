@@ -13,7 +13,7 @@ const Projects = [
             processing your input.`,
         githubLink: "https://github.com/abhiroopchaudhuri/cleochat",
         liveLink: "https://cleochat-eta.vercel.app/",
-        imageLink: "https://github.com/abhiroopchaudhuri/portfolio/assets/87370756/6bc33966-acc2-4a74-a12e-c240b47eed13"
+        imageLink: "cleochat.webp"
     },
     {
         id: 2,
@@ -21,7 +21,7 @@ const Projects = [
         description: `Features 🎥 <br/>-Dynamic Movie Sliders: Seamless browsing through popular, top-rated, and upcoming movies.<br/>-Auto-playing Hero Section: Engaging visual showcase of featured films.<br/>-Detailed Movie Pages: In-depth information, trailers, and cast details for each movie.<br/>-Responsive Design: Optimized for all devices, from mobile to desktop.<br/>-Real-time Data: Up-to-date movie information fetched from TMDb API.<br/><br/>`,
         githubLink: "https://github.com/abhiroopchaudhuri/cineverse-movie-app",
         liveLink: "https://cineverse-movie-app.vercel.app/",
-        imageLink: "https://github.com/user-attachments/assets/362b188f-50b4-44ac-8ec8-bdedde1acb5c"
+        imageLink: "cineverse.webp"
     },
     {
         id: 3,
@@ -35,7 +35,7 @@ screen size.<br/>
 -Interactive Modal: Click on any image to view it in an elegant modal.<br/>`,
         githubLink: "https://github.com/abhiroopchaudhuri/voyager",
         liveLink: "https://abhiroopchaudhuri.github.io/voyager/",
-        imageLink: "https://github.com/abhiroopchaudhuri/portfolio/assets/87370756/b4594a1d-547e-4518-9af6-f99e7f5727cf"
+        imageLink: "voyager.webp"
     },
     {
         id: 4,
@@ -49,7 +49,7 @@ screen size.<br/>
 - Local Storage Persistence: Your notes are automatically saved to your browser's local storage, so you can pick up where you left off, even after closing the application.`,
         githubLink: "https://github.com/abhiroopchaudhuri/draggable-notes-app",
         liveLink: "https://abhiroopchaudhuri.github.io/draggable-notes-app/",
-        imageLink: "https://github.com/abhiroopchaudhuri/draggable-notes-app/assets/87370756/5de7ee61-5f76-4e08-9541-e61d4d2c9939"
+        imageLink: "notes.webp"
     },
 
     {
@@ -64,7 +64,7 @@ screen size.<br/>
 -Feedback Integration: Feedback and reviews by the users can be displayed to increase sense of trust and authenticity.`,
         githubLink: "https://github.com/abhiroopchaudhuri/holovista-metaverse-website",
         liveLink: "https://holovista.vercel.app/",
-        imageLink: "https://github.com/abhiroopchaudhuri/holovista-metaverse-website/assets/87370756/e3c58eb8-4a1b-487d-89e3-c31aa413ef8c"
+        imageLink: "metaverse.webp"
     }
     
 ];

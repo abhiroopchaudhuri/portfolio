@@ -17,7 +17,7 @@ const FrontendProjComponents = ({i, title, description, image, githubLink, liveL
     <div className={`flex ${i%2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} flex-col justify-between w-[80%] overflow-hidden rounded-[10px] border-[1px] border-[#333333] mt-4 min-h-[500px] md:min-h-[400px]`}
     
     >
-    <div className="flex justify-center items-center md:w-1/3 w-full md:h-[400px] h-[200px] overflow-hidden "><img src={image} className={`md:transform md:scale-[177%] md:hover:scale-100 md:duration-300 object-cover w-full h-full md:w-auto md:h-auto`}
+    <div className="flex justify-center items-center md:w-1/3 w-full md:h-[400px] h-[200px] overflow-hidden "><img src={`${process.env.PUBLIC_URL}/${image}`} className={`md:transform md:scale-[140%] md:hover:scale-110 md:duration-300 object-cover w-full h-full md:w-auto md:h-auto`}
     ></img></div>
       <div className="md:w-2/3 md:p-6 w-full p-4 flex flex-col justify-between md:items-start items-center md:text-left text-center">
       <div className="flex flex-col">
