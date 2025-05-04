@@ -41,7 +41,7 @@ const FrontendProjects = () => {
     <div className="flex flex-col items-center min-h-screen w-full bg-black text-white font-source-code">
       <div className="flex flex-col items-center mt-20 mb-12 px-4">
         <AnimatedText
-          text="Front-End Projects"
+          text="AI & Front-End Projects"
           className="md:text-2xl text-lg inline-block md:mt-16 mt-10"
         />
         <motion.p
