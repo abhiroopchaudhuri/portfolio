@@ -50,7 +50,7 @@ const FrontendProjects = () => {
            transition={{ duration: 1, type: "ease" }}
            viewport={{ once: true }}
         className="text-center mt-4">
-          Here are some of my frontend projects...
+          Here are some of my AI & Frontend projects...
         </motion.p>
       </div>
 
